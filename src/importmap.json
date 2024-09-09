@@ -1,0 +1,25 @@
+{
+    "imports": {
+        "@portfolio/root-config": "https://crisalbaws.github.io/mf-portfolio-layout/portfolio-root-config.js",
+        "@mf-portfolio/angular": "https://crisalbaws.github.io/mf-portfolio-angular/main.js",
+        "@mf-portfolio/react": "//localhost:8080/mf-portfolio-react.js",
+        "single-spa": "https://cdnjs.cloudflare.com/ajax/libs/single-spa/5.9.3/system/single-spa.dev.js",
+        "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs.min.js",
+        "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs-operators.min.js",
+        "@angular/compiler": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__compiler/system/es2020/ivy/angular-compiler.js",
+        "@angular/core": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2020/ivy/angular-core.js",
+        "@angular/common": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2020/ivy/angular-common.js",
+        "@angular/common/http": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common/system/es2020/ivy/angular-http.js",
+        "@angular/animations": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2020/ivy/angular-animations.js",
+        "@angular/animations/browser": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2020/ivy/angular-browser.js",
+        "@angular/platform-browser": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2020/ivy/angular-platform-browser.js",
+        "@angular/platform-browser/animations": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser/system/es2020/ivy/angular-animations.js",
+        "@angular/platform-browser-dynamic": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser-dynamic/system/es2020/ivy/angular-platform-browser-dynamic.js",
+        "@angular/router": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__router/system/es2020/ivy/angular-router.js",
+        "single-spa-angular/internals": "https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular@6.2.0/system/es2020/ivy/angular-single-spa-angular-internals.js",
+        "single-spa-angular": "https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular@6.2.0/system/es2020/ivy/angular-single-spa-angular.js",
+        "ng-bootstrap": "https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.5/runtime.min.js",
+        "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js"
+    }
+}
