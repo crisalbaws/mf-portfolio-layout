@@ -2,7 +2,7 @@
     "imports": {
         "@portfolio/root-config": "https://crisalbaws.github.io/mf-portfolio-layout/portfolio-root-config.js",
         "@mf-portfolio/angular": "https://crisalbaws.github.io/mf-portfolio-angular/main.js",
-        "@mf-portfolio/react": "//localhost:8080/mf-portfolio-react.js",
+        "@mf-portfolio/react": "https://crisalbaws.github.io/mf-portfolio-react/mf-portfolio-react.js",
         "single-spa": "https://cdnjs.cloudflare.com/ajax/libs/single-spa/5.9.3/system/single-spa.dev.js",
         "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs.min.js",
         "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs-operators.min.js",
