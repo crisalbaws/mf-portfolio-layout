@@ -1,31 +1,24 @@
 <single-spa-router>
-  <!--
-
-    This is the single-spa Layout Definition for your microfrontends.
-    See https://single-spa.js.org/docs/layout-definition/ for more information.
-
-  -->
-
-  <!-- Example layouts you might find helpful:
-
-  <nav>
-    <application name="@org/navbar"></application>
-  </nav>
-  <route path="settings">
-    <application name="@org/settings"></application>
-  </route>
-
-  -->
-
-  <main>
-    <!-- <route default></route>
-      <h1>404 Not found</h1>
-  </route> -->
-    <route path="/mf-portfolio-layout/#/react">
-      <application name="@mf-portfolio/react"></application>
-    </route>
-    <route path="/mf-portfolio-layout/#/angular">
-      <application name="@mf-portfolio/angular"></application>
-    </route>
-  </main>
+  <div style="
+    margin: -8px !important; 
+    display: flex; 
+    background: #FCFBFC; 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+  ">
+    <application name="@mf-portfolio/toolbar"></application>
+    <div style="display: flex; float: left;">
+      <application name="@mf-portfolio/sidebar"></application>
+      <main>
+        <route path="/mf-portfolio-layout/#/react">
+          <application name="@mf-portfolio/react"></application>
+        </route>
+        <route path="/mf-portfolio-layout/#/angular">
+          <application name="@mf-portfolio/angular"></application>
+        </route>
+      </main>
+    </div>
+  </div>
 </single-spa-router>
